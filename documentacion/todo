@@ -1,12 +1,21 @@
 verificar base de datos --------------------------------------------------------
 crear carpetas -----------------------------------------------------------------
-subir a github
-hacer prototipos en balsamiq mockups
-crear base de datos
-crear controllers backend
-crear models backend
-crear entities backend
-crear routes backend
-crear controllers y views en frontend
+subir a github -----------------------------------------------------------------
+hacer prototipos en balsamiq mockups -------------------------------------------
+crear base de datos ------------------------------------------------------------
+Generar controllers backend-----------------------------------------------------
+Generar tables backend----------------------------------------------------------
+Generar entities backend--------------------------------------------------------
+crear routes backend (hecho hasta antenas)
+Generar controllers y views en frontend
+Generar utilities en frontend
+Generar services en frontend
+implementar tables backend
+implementar entities backend
+implementar controllers backend
 crear utilities en frontend
 crear services en frontend
+crear controllers frontend
+crear views frontend
+generar users, roles, login
+crear users, roles, login
