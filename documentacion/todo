@@ -6,7 +6,7 @@ crear base de datos ------------------------------------------------------------
 Generar controllers backend-----------------------------------------------------
 Generar tables backend----------------------------------------------------------
 Generar entities backend--------------------------------------------------------
-crear routes backend (hecho hasta cruces)
+crear routes backend------------------------------------------------------------
 Generar controllers y views en frontend
 Generar utilities en frontend
 Generar services en frontend
