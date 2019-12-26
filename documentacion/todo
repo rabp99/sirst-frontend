@@ -8,12 +8,12 @@ Generar tables backend----------------------------------------------------------
 Generar entities backend--------------------------------------------------------
 crear routes backend------------------------------------------------------------
 Generar controllers y views en frontend-----------------------------------------
-Generar utilities en frontend
-Generar services en frontend
+Generar utilities en frontend---------------------------------------------------
+Generar services en frontend----------------------------------------------------
 implementar tables backend
 implementar entities backend
 implementar controllers backend
-crear utilities en frontend
+crear utilities en frontend-----------------------------------------------------
 crear services en frontend
 crear controllers frontend
 crear views frontend
