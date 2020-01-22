@@ -10,12 +10,12 @@ crear routes backend------------------------------------------------------------
 Generar controllers y views en frontend-----------------------------------------
 Generar utilities en frontend---------------------------------------------------
 Generar services en frontend----------------------------------------------------
-implementar tables backend
+implementar tables backend---------------------------------hecho hasta Centrales
 implementar entities backend
 implementar controllers backend
 crear utilities en frontend-----------------------------------------------------
-crear services en frontend
-crear controllers frontend
-crear views frontend
+implementar services en frontend
+implementar controllers frontend
+implementar views frontend
 generar users, roles, login
 crear users, roles, login
