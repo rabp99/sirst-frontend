@@ -1,6 +1,6 @@
 <!doctype html>
-<html>
-  <head>
+<html ng-app="sirstFrontendApp">
+<head>
     <meta charset="utf-8">
     <title></title>
     <meta name="description" content="">
@@ -18,8 +18,8 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-  </head>
-  <body ng-app="sirstFrontendApp">
+</head>
+<body ng-cloak>
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -53,7 +53,7 @@
     </div>
 
     <div class="container">
-    <div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>
+        <ui-view></ui-view>
     </div>
 
     <div class="footer">
@@ -95,6 +95,8 @@
     <script src="bower_components/picturefill/dist/picturefill.js"></script>
     <script src="bower_components/angular-picture/src/angular-picture.js"></script>
     <script src="bower_components/ngmap/build/scripts/ng-map.js"></script>
+    <script src="https://js.arcgis.com/4.8/"></script>
+    <script src="bower_components/angular-esri-map/dist/angular-esri-map.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -103,7 +105,6 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/antenas.js"></script>
         <script src="scripts/controllers/antenas-view.js"></script>
-        <script src="scripts/controllers/antenasview.js"></script>
         <script src="scripts/controllers/centrales.js"></script>
         <script src="scripts/controllers/centrales-view.js"></script>
         <script src="scripts/controllers/cruces.js"></script>
@@ -142,6 +143,7 @@
         <script src="scripts/services/reguladoresservice.js"></script>
         <script src="scripts/services/tswitchesservice.js"></script>
         <script src="scripts/services/infosservice.js"></script>
+        <script src="scripts/controllers/mapaprueba.js"></script>
         <!-- endbuild -->
 </body>
 </html>
