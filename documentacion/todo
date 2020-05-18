@@ -12,6 +12,8 @@ Generar utilities en frontend---------------------------------------------------
 Generar services en frontend----------------------------------------------------
 implementar tables backend------------------------------------------------------
 implementar entities backend----------------------------------------------------
+crear seeders para las tablas Enlaces, Marcas, Modelos, Puntos, Centrales-------
+crear seeders para las tablas Puertos, Reguladores, tswitches, Cruces, Antenas
 implementar controllers backend
 crear utilities en frontend-----------------------------------------------------
 implementar services en frontend
