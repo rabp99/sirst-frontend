@@ -28,8 +28,8 @@ implementar controllers->Add Enlaces backend------------------------------------
 implementar controllers->Add Puntos backend-------------------------------------
 implementar controllers->Add Marcas backend-------------------------------------
 implementar controllers->Add Centrales backend----------------------------------
-implementar controllers->Add Modelos backend
-implementar controllers->Add TSwitches backend
+implementar controllers->Add Modelos backend------------------------------------
+implementar controllers->Add TSwitches backend----------------------------------
 implementar controllers->Add Puertos backend
 implementar controllers->Add Reguladores backend
 implementar controllers->Add Antenas backend

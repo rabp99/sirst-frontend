@@ -13,3 +13,5 @@ vendor\bin\phpunit tests\TestCase\Controller\EnlacesControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\PuntosControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\MarcasControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\CentralesControllerTest
+vendor\bin\phpunit tests\TestCase\Controller\ModelosControllerTest
+vendor\bin\phpunit tests\TestCase\Controller\TSwitchesControllerTest
