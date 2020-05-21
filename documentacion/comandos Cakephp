@@ -12,3 +12,4 @@ vendor\bin\phpunit tests\TestCase\Model\Table\MarcasTableTest
 vendor\bin\phpunit tests\TestCase\Controller\EnlacesControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\PuntosControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\MarcasControllerTest
+vendor\bin\phpunit tests\TestCase\Controller\CentralesControllerTest
