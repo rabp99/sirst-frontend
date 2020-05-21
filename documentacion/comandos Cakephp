@@ -1,0 +1,14 @@
+1. Seed database
+bin\cake migrations seed --seed Database1Seed
+bin\cake migrations seed --seed Database2Seed
+bin\cake migrations seed --seed Database3Seed
+bin\cake migrations seed --seed Database4Seed
+bin\cake migrations seed --seed Database5Seed
+bin\cake migrations seed --seed Database6Seed
+
+2. PHPUnit Test
+vendor\bin\phpunit tests\TestCase\Model\Table\MarcasTableTest
+
+vendor\bin\phpunit tests\TestCase\Controller\EnlacesControllerTest
+vendor\bin\phpunit tests\TestCase\Controller\PuntosControllerTest
+vendor\bin\phpunit tests\TestCase\Controller\MarcasControllerTest

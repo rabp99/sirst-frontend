@@ -24,9 +24,9 @@ implementar controllers->Index Puertos backend----------------------------------
 implementar controllers->Index Reguladores backend------------------------------
 implementar controllers->Index Antenas backend----------------------------------
 implementar controllers->Index Cruces backend-----------------------------------
-implementar controllers->Add Enlaces backend
-implementar controllers->Add Puntos backend
-implementar controllers->Add Marcas backend
+implementar controllers->Add Enlaces backend------------------------------------
+implementar controllers->Add Puntos backend-------------------------------------
+implementar controllers->Add Marcas backend-------------------------------------
 implementar controllers->Add Centrales backend
 implementar controllers->Add Modelos backend
 implementar controllers->Add TSwitches backend
