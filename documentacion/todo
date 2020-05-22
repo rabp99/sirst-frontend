@@ -20,7 +20,6 @@ implementar controllers->Index Marcas backend-----------------------------------
 implementar controllers->Index Centrales backend--------------------------------
 implementar controllers->Index Modelos backend----------------------------------
 implementar controllers->Index TSwitches backend--------------------------------
-implementar controllers->Index Puertos backend----------------------------------
 implementar controllers->Index Reguladores backend------------------------------
 implementar controllers->Index Antenas backend----------------------------------
 implementar controllers->Index Cruces backend-----------------------------------
@@ -30,10 +29,12 @@ implementar controllers->Add Marcas backend-------------------------------------
 implementar controllers->Add Centrales backend----------------------------------
 implementar controllers->Add Modelos backend------------------------------------
 implementar controllers->Add TSwitches backend----------------------------------
-implementar controllers->Add Puertos backend
-implementar controllers->Add Reguladores backend
+implementar controllers->Add Reguladores backend--------------------------------
 implementar controllers->Add Antenas backend
 implementar controllers->Add Cruces backend
+implementar controllers arreglos Enlaces, Puntos, Marcas
+implementar controllers arreglos Centrales, Modelos, TSwitches
+implementar controllers arreglos Reguladores, Antenas, Cruces
 crear utilities en frontend-----------------------------------------------------
 implementar services en frontend
 implementar controllers frontend
