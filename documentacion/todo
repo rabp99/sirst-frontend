@@ -30,7 +30,7 @@ implementar controllers->Add Centrales backend----------------------------------
 implementar controllers->Add Modelos backend------------------------------------
 implementar controllers->Add TSwitches backend----------------------------------
 implementar controllers->Add Reguladores backend--------------------------------
-implementar controllers->Add Antenas backend
+implementar controllers->Add Antenas backend------------------------------------
 implementar controllers->Add Cruces backend
 implementar controllers arreglos Enlaces, Puntos, Marcas
 implementar controllers arreglos Centrales, Modelos, TSwitches
