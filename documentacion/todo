@@ -31,10 +31,37 @@ implementar controllers->Add Modelos backend------------------------------------
 implementar controllers->Add TSwitches backend----------------------------------
 implementar controllers->Add Reguladores backend--------------------------------
 implementar controllers->Add Antenas backend------------------------------------
-implementar controllers->Add Cruces backend
-implementar controllers arreglos Enlaces, Puntos, Marcas
-implementar controllers arreglos Centrales, Modelos, TSwitches
+implementar controllers->Add Cruces backend-------------------------------------
+implementar controllers arreglos Enlaces----------------------------------------
+implementar controllers arreglos Puntos-----------------------------------------
+implementar controllers arreglos Marcas-----------------------------------------
+implementar controllers arreglos Centrales--------------------------------------
+implementar controllers arreglos Modelos----------------------------------------
+implementar controllers arreglos TSwitches
 implementar controllers arreglos Reguladores, Antenas, Cruces
+implementar controllers arreglos Antenas
+implementar controllers arreglos Cruces
+implementar estados
+implementar controllers->Edit Enlaces backend
+implementar controllers->Edit Puntos backend
+implementar controllers->Edit Marcas backend
+implementar controllers->Edit Centrales backend
+implementar controllers->Edit Modelos backend
+implementar controllers->Edit TSwitches backend
+implementar controllers->Edit Reguladores backend
+implementar controllers->Edit Antenas backend
+implementar controllers->Edit Cruces backend
+implementar controllers->Enable/Disable Enlaces backend
+implementar controllers->Enable/Disable Puntos backend
+implementar controllers->Enable/Disable Marcas backend
+implementar controllers->Enable/Disable Centrales backend
+implementar controllers->Enable/Disable Modelos backend
+implementar controllers->Enable/Disable TSwitches backend
+implementar controllers->Enable/Disable Reguladores backend
+implementar controllers->Enable/Disable Antenas backend
+implementar controllers->Enable/Disable Cruces backend
+implementar controllers->CustomActions backend
+implementar tests->CustomActions backend
 crear utilities en frontend-----------------------------------------------------
 implementar services en frontend
 implementar controllers frontend

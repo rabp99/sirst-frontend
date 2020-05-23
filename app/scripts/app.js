@@ -16,7 +16,9 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.router',
-    'esri.map'
+    'ui.bootstrap',
+    'esri.map',
+    'scrollable-table'
 ])
 .config(function($stateProvider, $urlRouterProvider) {
     var mainState = {
@@ -28,6 +30,14 @@ angular
         title: 'Home'
     };
 
+    var marcasState = {
+        name: 'marcas',
+        url: '/marcas',
+        templateUrl: 'views/Marcas/marcas.html',
+        controller: 'MarcasCtrl',
+        controllerAs: 'MarcasCtrl',
+    };
+    
     var mapapruebaState = {
         name: 'mapaprueba',
         url: '/mapaprueba',
@@ -36,6 +46,7 @@ angular
         controllerAs: 'MapapruebaCtrl',
     };
     $stateProvider.state(mainState);
+    $stateProvider.state(marcasState);
     $stateProvider.state(mapapruebaState);
     $urlRouterProvider.when('', '/');   
 });;

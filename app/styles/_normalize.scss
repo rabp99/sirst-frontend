@@ -1,0 +1,16 @@
+/*
+body {
+    padding-top: $navbar-height + $separation-height;
+}
+*/
+header {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 5px;
+    :hover {
+       text-decoration: underline;
+       cursor: default;
+   }
+}

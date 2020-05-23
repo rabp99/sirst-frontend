@@ -17,7 +17,8 @@
     "angular-slick": "^0.2.1",
     "angular-picture": "^0.3.1",
     "ngmap": "^1.18.4",
-    "angular-esri-map": "^2.0.4"
+    "angular-esri-map": "^2.0.4",
+    "angular-scrollable-table": "^1.1.2"
   },
   "devDependencies": {
     "angular-mocks": "1.5.8"

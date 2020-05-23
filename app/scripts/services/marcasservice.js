@@ -8,16 +8,6 @@
  * Factory in the sirstFrontendApp.
  */
 angular.module('sirstFrontendApp')
-  .factory('marcasService', function () {
-    // Service logic
-    // ...
-
-    var meaningOfLife = 42;
-
-    // Public API here
-    return {
-      someMethod: function () {
-        return meaningOfLife;
-      }
-    };
-  });
+.factory('marcasService', function ($resource, envService) {
+    return $resource(envService.getHost() + 'marcas/:id.json', {});
+});

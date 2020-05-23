@@ -8,7 +8,10 @@ bin\cake migrations seed --seed Database6Seed
 
 2. PHPUnit Test
 vendor\bin\phpunit tests\TestCase\Model\Table\EnlacesTableTest
+vendor\bin\phpunit tests\TestCase\Model\Table\PuntosTableTest
 vendor\bin\phpunit tests\TestCase\Model\Table\MarcasTableTest
+vendor\bin\phpunit tests\TestCase\Model\Table\CentralesTableTest
+vendor\bin\phpunit tests\TestCase\Model\Table\ModelosTableTest
 
 vendor\bin\phpunit tests\TestCase\Controller\EnlacesControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\PuntosControllerTest
@@ -18,3 +21,4 @@ vendor\bin\phpunit tests\TestCase\Controller\ModelosControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\TSwitchesControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\ReguladoresControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\AntenasControllerTest
+vendor\bin\phpunit tests\TestCase\Controller\CrucesControllerTest

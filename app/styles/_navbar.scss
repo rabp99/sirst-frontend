@@ -1,0 +1,19 @@
+$mavbar-border-bottom-height: 5px;
+$navbar-bottom-padding-vertical: 8px;
+
+#navbar-bottom-header {
+    background-color: $brand-primary;
+}
+
+.navbar-inverse {
+    .navbar-nav {
+        > li > a {
+            padding-top: $navbar-bottom-padding-vertical;
+            padding-bottom: $navbar-bottom-padding-vertical;
+            border-bottom: $mavbar-border-bottom-height solid transparent;
+        }
+        > .active > a {
+            border-bottom: $mavbar-border-bottom-height #fff solid;
+        }
+    }
+}

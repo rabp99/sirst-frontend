@@ -13,7 +13,7 @@ angular.module('sirstFrontendApp')
         getHost: function() {
             switch (window.location.hostname) {
                 case 'localhost':
-                    return 'http://localhost:8000/sirst-backend/';
+                    return 'http://localhost/sirst-backend/api/';
                 case 'sirst.robertobocanegra.com':
                     return 'http://sirst.robertobocanegra.com/api/';
             }

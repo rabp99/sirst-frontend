@@ -1,7 +1,15 @@
 {
     "elements": {
         "esri-scene-view": {},
-        "ui-view": {}
+        "ui-view": {},
+        "scrollable-table": {}
     },
-    "attributes": {}
+    "attributes": {
+        "ui-sref": {
+            "context": "a"
+        },
+        "ui-sref-active": {
+            "context": "li"
+        }
+    }
 }
