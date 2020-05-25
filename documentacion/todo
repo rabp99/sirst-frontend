@@ -37,11 +37,12 @@ implementar controllers arreglos Puntos-----------------------------------------
 implementar controllers arreglos Marcas-----------------------------------------
 implementar controllers arreglos Centrales--------------------------------------
 implementar controllers arreglos Modelos----------------------------------------
-implementar controllers arreglos TSwitches
-implementar controllers arreglos Reguladores, Antenas, Cruces
+implementar controllers arreglos TSwitches--------------------------------------
+implementar controllers arreglos Reguladores
 implementar controllers arreglos Antenas
 implementar controllers arreglos Cruces
 implementar estados
+implementar unique considerando estados
 implementar controllers->Edit Enlaces backend
 implementar controllers->Edit Puntos backend
 implementar controllers->Edit Marcas backend

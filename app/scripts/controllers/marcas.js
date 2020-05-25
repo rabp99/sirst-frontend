@@ -8,7 +8,7 @@
  * Controller of the sirstFrontendApp
  */
 angular.module('sirstFrontendApp')
-.controller('MarcasCtrl', function ($scope, marcasService) {
+.controller('MarcasCtrl', function ($scope, marcasService, $uibModal) {
     $scope.init = function() {
         $scope.table = {
             loading: true,
@@ -57,6 +57,19 @@ angular.module('sirstFrontendApp')
         $scope.table.page = 1;
         $scope.getMarcas();
     });
+    
+    $scope.showMarcasAdd = function() {
+        var modalInstanceAdd = $uibModal.open({
+            templateUrl: 'views/Marcas/marcas-add.html',
+            controller: 'MarcasAddCtrl',
+            backdrop: false
+        });
+
+        modalInstanceAdd.result.then(function (data) {
+            $scope.message = data;
+            $scope.getMarcas();
+        });
+    };
     
     $scope.init();
 });

@@ -18,7 +18,9 @@ angular
     'ui.router',
     'ui.bootstrap',
     'esri.map',
-    'scrollable-table'
+    'scrollable-table',
+    'ui.router.modal',
+    'angularValidator'
 ])
 .config(function($stateProvider, $urlRouterProvider) {
     var mainState = {

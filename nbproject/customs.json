@@ -5,6 +5,10 @@
         "scrollable-table": {}
     },
     "attributes": {
+        "confirm": {},
+        "angular-validator": {
+            "context": "form"
+        },
         "ui-sref": {
             "context": "a"
         },
