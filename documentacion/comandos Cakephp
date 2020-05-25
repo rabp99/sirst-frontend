@@ -13,6 +13,7 @@ vendor\bin\phpunit tests\TestCase\Model\Table\MarcasTableTest
 vendor\bin\phpunit tests\TestCase\Model\Table\CentralesTableTest
 vendor\bin\phpunit tests\TestCase\Model\Table\ModelosTableTest
 vendor\bin\phpunit tests\TestCase\Model\Table\TSwitchesTableTest
+vendor\bin\phpunit tests\TestCase\Model\Table\ReguladoresTableTest
 
 vendor\bin\phpunit tests\TestCase\Controller\EnlacesControllerTest
 vendor\bin\phpunit tests\TestCase\Controller\PuntosControllerTest

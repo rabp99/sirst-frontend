@@ -71,5 +71,23 @@ angular.module('sirstFrontendApp')
         });
     };
     
+    $scope.showMarcasView = function(marca) {
+        var modalInstanceEdit = $uibModal.open({
+            templateUrl: 'views/Marcas/marcas-view.html',
+            controller: 'MarcasViewCtrl',
+            backdrop: false,
+            resolve: {
+                marca: function() {
+                    return marca;
+                } 
+            }
+        });
+
+        modalInstanceEdit.result.then(function (data) {
+            $scope.message = data;
+            $scope.init();
+        });
+    };
+    
     $scope.init();
 });
