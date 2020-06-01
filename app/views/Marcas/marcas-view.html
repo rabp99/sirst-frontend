@@ -6,7 +6,7 @@
     <div class="modal-body">
         <div class="form-group">
             <label for="txtDescripcion">Descripción</label>
-            <span class="spn-editable" ng-click="editing = true" ng-hide="editing">{{ marca.descripcion }}</span>
+            <span class="spn-editable" input-editable ng-click="editing = true" ng-hide="editing">{{ marca.descripcion }}</span>
             <div class="input-group" ng-show="editing">
                 <input id="txtDescripcion" class="form-control" type="text" ng-model="marca.descripcion" ng-blur="editing = false"
                     name="marcaDescripcion" required required-message="'Este campo es requerido'" validate-on="blur" />

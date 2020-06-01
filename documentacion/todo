@@ -39,10 +39,14 @@ implementar controllers arreglos Centrales--------------------------------------
 implementar controllers arreglos Modelos----------------------------------------
 implementar controllers arreglos TSwitches--------------------------------------
 implementar controllers arreglos Reguladores------------------------------------
-implementar controllers arreglos Antenas
-implementar controllers arreglos Cruces
-implementar estados
+implementar controllers arreglos Antenas----------------------------------------
+implementar controllers arreglos Cruces-----------------------------------------
+implementar estados en mysql----------------------------------------------------
+implementar estados en Tables backend
 implementar unique considerando estados
+implementar estados en Controllers backend
+implementar tests para models considerando estados
+implementar tests para controllers considerando estados
 implementar controllers->Edit Enlaces backend
 implementar controllers->Edit Puntos backend
 implementar controllers->Edit Marcas backend
