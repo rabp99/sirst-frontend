@@ -5,6 +5,7 @@ bin\cake migrations seed --seed Database3Seed
 bin\cake migrations seed --seed Database4Seed
 bin\cake migrations seed --seed Database5Seed
 bin\cake migrations seed --seed Database6Seed
+bin\cake migrations seed --seed Database7Seed
 
 2. PHPUnit Test
 vendor\bin\phpunit tests\TestCase\Model\Table\EnlacesTableTest

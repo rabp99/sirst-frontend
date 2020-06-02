@@ -42,11 +42,19 @@ implementar controllers arreglos Reguladores------------------------------------
 implementar controllers arreglos Antenas----------------------------------------
 implementar controllers arreglos Cruces-----------------------------------------
 implementar estados en mysql----------------------------------------------------
-implementar estados en Tables backend
-implementar unique considerando estados
-implementar estados en Controllers backend
-implementar tests para models considerando estados
+implementar estados en Tables backend-------------------------------------------
+implementar estados en Controllers backend--------------------------------------
+implementar unique considerando estados en table Enlaces------------------------
+implementar unique considerando estados en table Puntos
+implementar unique considerando estados en table Marcas
+implementar unique considerando estados en table Centrales
+implementar unique considerando estados en table Modelos
+implementar unique considerando estados en table TSwitches
+implementar unique considerando estados en table Reguladores
+implementar unique considerando estados en table Antenas
+implementar unique considerando estados en table Cruces
 implementar tests para controllers considerando estados
+implementar tests para models considerando estados
 implementar controllers->Edit Enlaces backend
 implementar controllers->Edit Puntos backend
 implementar controllers->Edit Marcas backend
