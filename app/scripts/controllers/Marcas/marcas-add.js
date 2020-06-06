@@ -19,6 +19,7 @@ angular.module('sirstFrontendApp')
     };
 
     $scope.saveMarca = function(marca) {
+        marca.estado_id = 1;
         $utilsViewService.disable('.btn-submit');
         
         marcasService.save(marca, function (data) {

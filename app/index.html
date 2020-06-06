@@ -36,14 +36,14 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="#/">
-                    <img id="logo-banner" style="width: 150px;" class="img-responsive not-visible" ng-src="images/logo.jpg" alt="Logo">
+                <a href="#/">
+                    <img id="logo-banner" class="img-responsive not-visible" ng-src="images/logo.jpg" alt="Logo">
                 </a>
             </div>
             <div class="collapse navbar-collapse col-sm-8" id="js-navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li ui-sref-active="active"><a ui-sref="main">Home</a></li>
-                    <li class="active"><a href="#">Mantenimiento</a></li>
+                    <li ng-class="{active: ('marcas' | includedByState) || ('enlaces' | includedByState)}" ui-sref-active="active"><a href="#">Mantenimiento</a></li>
                     <li><a href="#">Mapa</a></li>
                     <li><a href="#">Estadísticas</a></li>
                 </ul>
@@ -113,8 +113,9 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/antenas.js"></script>
-        <script src="scripts/controllers/antenas-view.js"></script>
+        <script src="scripts/controllers/Antenas/antenas.js"></script>
+        <script src="scripts/controllers/Antenas/antenas-add.js"></script>
+        <script src="scripts/controllers/Antenas/antenas-view.js"></script>
         <script src="scripts/controllers/centrales.js"></script>
         <script src="scripts/controllers/centrales-view.js"></script>
         <script src="scripts/controllers/cruces.js"></script>
@@ -139,7 +140,6 @@
         <script src="scripts/controllers/enlaces-add.js"></script>
         <script src="scripts/controllers/cruces-add.js"></script>
         <script src="scripts/controllers/centrales-add.js"></script>
-        <script src="scripts/controllers/antenas-add.js"></script>
         <script src="scripts/services/$utilsviewservice.js"></script>
         <script src="scripts/services/envservice.js"></script>
         <script src="scripts/services/oauthhttpinterceptor.js"></script>

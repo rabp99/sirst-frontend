@@ -8,6 +8,7 @@ bin\cake migrations seed --seed Database6Seed
 bin\cake migrations seed --seed Database7Seed
 
 2. PHPUnit Test
+vendor\bin\phpunit
 vendor\bin\phpunit tests\TestCase\Model\Table\EnlacesTableTest
 vendor\bin\phpunit tests\TestCase\Model\Table\PuntosTableTest
 vendor\bin\phpunit tests\TestCase\Model\Table\MarcasTableTest
