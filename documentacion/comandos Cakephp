@@ -1,4 +1,5 @@
 1. Seed database
+bin\cake DatabaseSeed
 bin\cake migrations seed --seed Database1Seed
 bin\cake migrations seed --seed Database2Seed
 bin\cake migrations seed --seed Database3Seed
