@@ -52,7 +52,7 @@ implementar unique considerando estados en table Modelos------------------------
 implementar unique considerando estados en table TSwitches----------------------
 implementar unique considerando estados en table Reguladores--------------------
 implementar unique considerando estados en table Antenas------------------------
-implementar unique considerando estados en table Cruces
+implementar unique considerando estados en table Cruces-------------------------
 implementar tests para controllers Enlaces considerando estados-----------------
 implementar tests para controllers Puntos considerando estados------------------
 implementar tests para controllers Marcas considerando estados------------------
@@ -61,26 +61,35 @@ implementar tests para controllers Modelos considerando estados-----------------
 implementar tests para controllers TSwitches considerando estados---------------
 implementar tests para controllers Reguladores considerando estados-------------
 implementar tests para controllers Antenas considerando estados-----------------
-implementar tests para controllers Cruces considerando estados
-luego que se graba una antena, advertir si esta duplicada
-implementar tests para models Enlaces considerando estados
-implementar tests para models Puntos considerando estados
-implementar tests para models Marcas considerando estados
-implementar tests para models Centrales considerando estados
-implementar tests para models Modelos considerando estados
-implementar tests para models TSwitches considerando estados
-implementar tests para models Reguladores considerando estados
-implementar tests para models Antenas considerando estados
-implementar tests para models Cruces considerando estados
-implementar controllers->Edit Enlaces backend
-implementar controllers->Edit Puntos backend
-implementar controllers->Edit Marcas backend
-implementar controllers->Edit Centrales backend
-implementar controllers->Edit Modelos backend
-implementar controllers->Edit TSwitches backend
-implementar controllers->Edit Reguladores backend
-implementar controllers->Edit Antenas backend
-implementar controllers->Edit Cruces backend
+implementar tests para controllers Cruces considerando estados------------------
+luego que se graba una antena, advertir si esta duplicada-----------------------
+implementar tests para models Enlaces considerando estados----------------------
+implementar tests para models Puntos considerando estados-----------------------
+implementar tests para models Marcas considerando estados-----------------------
+implementar tests para models Centrales considerando estados--------------------
+implementar tests para models Modelos considerando estados----------------------
+implementar tests para models TSwitches considerando estados--------------------
+implementar tests para models Reguladores considerando estados------------------
+implementar tests para models Antenas considerando estados----------------------
+implementar tests para models Cruces considerando estados-----------------------
+implementar controllers->Edit Enlaces backend-----------------------------------
+implementar controllers->Edit Puntos backend------------------------------------
+implementar controllers->Edit Marcas backend------------------------------------
+implementar controllers->Edit Centrales backend---------------------------------
+implementar controllers->Edit Modelos backend-----------------------------------
+implementar controllers->Edit TSwitches backend---------------------------------
+implementar controllers->Edit Reguladores backend-------------------------------
+implementar controllers->Edit Antenas backend-----------------------------------
+implementar controllers->Edit Cruces backend------------------------------------
+implementar test controllers->Edit Enlaces backend------------------------------
+implementar test controllers->Edit Puntos backend
+implementar test controllers->Edit Marcas backend
+implementar test controllers->Edit Centrales backend
+implementar test controllers->Edit Modelos backend
+implementar test controllers->Edit TSwitches backend
+implementar test controllers->Edit Reguladores backend
+implementar test controllers->Edit Antenas backend
+implementar test controllers->Edit Cruces backend
 implementar controllers->Enable/Disable Enlaces backend
 implementar controllers->Enable/Disable Puntos backend
 implementar controllers->Enable/Disable Marcas backend
