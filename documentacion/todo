@@ -83,7 +83,7 @@ implementar controllers->Edit Antenas backend-----------------------------------
 implementar controllers->Edit Cruces backend------------------------------------
 implementar test controllers->Edit Enlaces backend------------------------------
 implementar test controllers->Edit Puntos backend-------------------------------
-implementar test controllers->Edit Marcas backend
+implementar test controllers->Edit Marcas backend-------------------------------
 implementar test controllers->Edit Centrales backend
 implementar test controllers->Edit Modelos backend
 implementar test controllers->Edit TSwitches backend
