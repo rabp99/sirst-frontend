@@ -88,7 +88,7 @@ implementar test controllers->Edit Centrales backend----------------------------
 implementar test controllers->Edit Modelos backend------------------------------
 implementar test controllers->Edit TSwitches backend----------------------------
 implementar test controllers->Edit Reguladores backend--------------------------
-implementar test controllers->Edit Antenas backend
+implementar test controllers->Edit Antenas backend------------------------------
 implementar test controllers->Edit Cruces backend
 implementar controllers->Enable/Disable Enlaces backend
 implementar controllers->Enable/Disable Puntos backend
@@ -113,7 +113,13 @@ implementar tests->CustomActions backend
 crear utilities en frontend-----------------------------------------------------
 implementar service Enlace en frontend
 implementar service Puntos en frontend
-implementar services en frontend
+implementar service Marcas en frontend
+implementar service Centrales en frontend
+implementar service Modelos en frontend
+implementar service TSwitches en frontend
+implementar service Reguladores en frontend
+implementar service Antenas en frontend
+implementar service Cruces en frontend
 implementar controllers frontend
 implementar views frontend
 generar users, roles, login
