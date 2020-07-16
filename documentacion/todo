@@ -93,10 +93,10 @@ implementar test controllers->Edit Cruces backend-------------------------------
 implementar controllers->Enable/Disable Enlaces backend-------------------------
 implementar controllers->Enable/Disable Puntos backend--------------------------
 implementar controllers->Enable/Disable Marcas backend--------------------------
-implementar controllers->Enable/Disable Centrales backend
-implementar controllers->Enable/Disable Modelos backend
-implementar controllers->Enable/Disable TSwitches backend
-implementar controllers->Enable/Disable Reguladores backend
+implementar controllers->Enable/Disable Centrales backend-----------------------
+implementar controllers->Enable/Disable Modelos backend-------------------------
+implementar controllers->Enable/Disable TSwitches backend-----------------------
+implementar controllers->Enable/Disable Reguladores backend---------------------
 implementar controllers->Enable/Disable Antenas backend
 implementar controllers->Enable/Disable Cruces backend
 implementar test controllers->Enable/Disable Enlaces backend
@@ -111,7 +111,7 @@ implementar test controllers->Enable/Disable Cruces backend
 implementar controllers->CustomActions backend
 implementar tests->CustomActions backend
 crear utilities en frontend-----------------------------------------------------
-implementar service Enlace en frontend
+implementar service Enlaces en frontend
 implementar service Puntos en frontend
 implementar service Marcas en frontend
 implementar service Centrales en frontend
@@ -120,9 +120,9 @@ implementar service TSwitches en frontend
 implementar service Reguladores en frontend
 implementar service Antenas en frontend
 implementar service Cruces en frontend
-implementar controller Enlace->index en frontend
-implementar controller Enlace->add en frontend
-implementar controller Enlace->view en frontend
+implementar controller Enlaces->index en frontend
+implementar controller Enlaces->add en frontend
+implementar controller Enlaces->view en frontend
 implementar controller Puntos->index en frontend
 implementar controller Puntos->add en frontend
 implementar controller Puntos->view en frontend
